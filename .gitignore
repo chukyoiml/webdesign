@@ -31,3 +31,4 @@ db-data/*
 .env.production
 .phpactor.json
 auth.json
+.DS_Store
