@@ -12,7 +12,7 @@ services:
 
   db:
     image: mysql:8
-    platform: linux/amd64 # Appleシリコン対応（Intelアーキテクチャで動作させる）
+    # platform: linux/amd64 # Appleシリコン対応（Intelアーキテクチャで動作させる）
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
